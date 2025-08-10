@@ -27,6 +27,10 @@ class ComposerStaticInit776b4b8e2e43ddcd5a1d1cc0df070f83
         array (
             'League\\OAuth2\\Client\\' => 21,
         ),
+        'H' => 
+        array (
+            'Hcode\\' => 6,
+        ),
         'G' => 
         array (
             'GuzzleHttp\\Psr7\\' => 16,
@@ -58,6 +62,10 @@ class ComposerStaticInit776b4b8e2e43ddcd5a1d1cc0df070f83
             0 => __DIR__ . '/..' . '/league/oauth2-google/src',
             1 => __DIR__ . '/..' . '/league/oauth2-client/src',
         ),
+        'Hcode\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hcodebr/php-classes/src',
+        ),
         'GuzzleHttp\\Psr7\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
@@ -74,10 +82,6 @@ class ComposerStaticInit776b4b8e2e43ddcd5a1d1cc0df070f83
         array (
             0 => __DIR__ . '/..' . '/eloquent/phony/src',
         ),
-    );
-
-    public static $fallbackDirsPsr4 = array (
-        0 => __DIR__ . '/..' . '/hcodebr/php-classes/src',
     );
 
     public static $prefixesPsr0 = array (
@@ -106,7 +110,6 @@ class ComposerStaticInit776b4b8e2e43ddcd5a1d1cc0df070f83
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit776b4b8e2e43ddcd5a1d1cc0df070f83::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit776b4b8e2e43ddcd5a1d1cc0df070f83::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr4 = ComposerStaticInit776b4b8e2e43ddcd5a1d1cc0df070f83::$fallbackDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInit776b4b8e2e43ddcd5a1d1cc0df070f83::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit776b4b8e2e43ddcd5a1d1cc0df070f83::$classMap;
 
