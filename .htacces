@@ -1,0 +1,5 @@
+RewriteEngine On
+
+# Redireciona se o domínio não for exatamente www.hcodecommerce.com.br
+RewriteCond %{HTTP_HOST} !^www\.hcodecommerce\.com\.br$ [NC]
+RewriteRule ^(.*)$ http://www.hcodecommerce.com.br/$1 [L,R=301]
